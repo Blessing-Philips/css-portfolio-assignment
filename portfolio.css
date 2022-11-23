@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    border-top:  9px solid rgb(0, 102, 255);
+    border-left: 9px solid pink;
+    border-bottom:  9px solid rgb(0, 102, 255);
+    border-right: 9px solid pink;
+    padding: 15px;
+    color: pink;
+    height: max-content;
+    width: 1300px;
+}
+
+#body{
+    height: max-content;
+    border-radius: 15px;
+    background-color: rgb(89, 89, 248) ;
+}
+
+.name_head{
+    padding-left: 20px;
+}
+h1:first-child{
+    font-size: 24px;
+    font-weight: 900;
+    width: 40rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img.name_tag{
+    border-radius: 2px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    width: 10rem;
+}
+
+a{
+    text-decoration: none;
+    color: pink;
+    margin: 15px;
+    margin-top: 10px;
+    float: right;
+}
+
+.nav_bar{
+    display: flex;
+    padding-top: 20px;
+}
+
+.first_part{
+    padding-left: 250px;
+    padding-top: 70px;
+    display: flex;
+}
+
+.main_img{
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.write_up{
+    width: 15rem;
+    word-spacing: 6px;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+.write_up p{
+    margin-top: 15px;
+}
+
+.second_part{
+    display: flex;
+    margin-top: 60px;
+    padding-left: 250px;
+}
+
+.career{
+    width: 25rem;
+    word-spacing: 6px;
+    line-height: 20px;
+}
+
+.career p{
+    margin-top: 15px;
+}
+
+.skills{
+    margin-left: 40px;
+}
+
+.skills h1{
+    padding-left: 250px;
+}
+
+.skills ul{
+    margin-left: 20px;
+    padding-left: 40px;
+}
+
+.skills li{
+    margin-left: 15px;
+    background-color: rgb(62, 60, 182);
+    padding: 8px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
